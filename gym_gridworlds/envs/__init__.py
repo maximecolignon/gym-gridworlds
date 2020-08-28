@@ -1,0 +1,3 @@
+from gym_gridworlds.envs.test_env import Test4HEnv10x10N2
+from gym_gridworlds.envs.debug_env import Debug4HEnv5x5N2
+from gym_gridworlds.envs.collect_env import Collect4HEnv10x10N2
