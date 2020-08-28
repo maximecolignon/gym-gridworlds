@@ -2,10 +2,17 @@ import gym
 import time
 import gym_gridworlds
 
+import argparse
 
-def main():
+def parse_args():
+    parser = argparse.ArgumentParser("Environment test with random policy")
+    # Environment
+    parser.add_argument("--task", type=str, default="collect-v0", help="name of the task")
+    return parser.parse_args()
 
-    env = gym.make('test-v1')
+def main(arglist):
+
+    env = gym.make(arglist.task)
 
     _ = env.reset()
 
@@ -24,4 +31,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    arglist = parse_args()
+    main(arglist)

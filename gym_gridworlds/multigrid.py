@@ -950,10 +950,6 @@ class MultiGridEnv(gym.Env):
         self.ob_dim = np.prod(self.observation_space.shape)
         self.ac_dim = self.action_space.n
 
-        #LOG
-        print("LOG : ob_dim " + str(self.ob_dim ))
-        print("LOG : ac_dim " + str(self.ac_dim))
-
         # Range of possible rewards
         self.reward_range = (0, 1)
 
