@@ -1,5 +1,7 @@
 # gym-gridworlds
 
+![alt text](https://i.ibb.co/1vGWrBy/screenshot.png)
+
 This repository contains a set of parametrized multi-agent gym environments based on the MultiGrid environement (https://github.com/ArnaudFickinger/gym-multigrid), which was itself based on the MiniGrid environment (https://github.com/maximecb/gym-minigrid).
 
 ## Setup
